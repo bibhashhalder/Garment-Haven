@@ -1,4 +1,4 @@
-const Admin = () => {
+const ContactUs = () => {
     return (
         <div>
             
@@ -6,4 +6,4 @@ const Admin = () => {
     );
 };
 
-export default Admin;
+export default ContactUs;
