@@ -1,4 +1,6 @@
-const LocationMap = () => {
+
+
+const Admin = () => {
     return (
         <div>
             
@@ -6,4 +8,4 @@ const LocationMap = () => {
     );
 };
 
-export default LocationMap;
+export default Admin;
