@@ -7,6 +7,7 @@ import Login from "../pages/Login"
 import SignUp from '../pages/SignUp'
 import DashboardLayout from '../layout/DashboardLayout'
 import Dashboard from '../pages/Dashboard'
+import ServicePage from "../pages/ServicePage"
 export const router = createBrowserRouter([
     {
         path:'/',
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
             {
                 path:'/about',
                 element:<About/>
+            },
+            {
+                path:'/service',
+                element:<ServicePage/>
             },
             {
                 path:'/login',
